@@ -33,3 +33,95 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2019-09-22 14:31:08.404
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:31:41.496
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:31:41.508
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6db84cae[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=719)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:31:41.536
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:31:42.909
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:31:46.261
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:31:46.447
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6db84cae[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=719)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:31:46.462
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.091
+!MESSAGE Boot LS startup time from start to initialized: 45552ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.206
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nfWlMgDxisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.218
+!MESSAGE subscribing to classpath changes: sts4.classpath.nfWlMgDx isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.234
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.249
+!MESSAGE subsribers = {sts4.classpath.nfWlMgDx=Send Classpath Notifications(116)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.261
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.270
+!MESSAGE project JavaProject ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.282
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.294
+!MESSAGE Preparing classpath changed notification JavaProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.306
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nfWlMgDx => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.318
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.335
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.348
+!MESSAGE buffering callback sts4.classpath.nfWlMgDx JavaProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.359
+!MESSAGE executing callback sts4.classpath.nfWlMgDx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:32:32.403
+!MESSAGE executing callback sts4.classpath.nfWlMgDx SUCCESS [done]
+
+!ENTRY org.eclipse.egit.core 4 0 2019-09-22 14:36:11.973
+!MESSAGE An exception occurred during push on URI https://github.com/mailmeabhi26/eclipse_project.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1355)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:168)
+	at org.eclipse.egit.ui.internal.push.SimpleConfigurePushDialog.dryRun(SimpleConfigurePushDialog.java:323)
+	at org.eclipse.egit.ui.internal.dialogs.AbstractConfigureRemoteDialog.lambda$7(AbstractConfigureRemoteDialog.java:531)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:36:21.331
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nfWlMgDx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:36:21.400
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.nfWlMgDx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:36:21.423
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 14:36:21.457
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nfWlMgDx => OK
